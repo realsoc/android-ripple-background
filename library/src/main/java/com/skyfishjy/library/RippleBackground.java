@@ -11,6 +11,7 @@ import android.graphics.Paint;
 import android.util.AttributeSet;
 import android.view.View;
 import android.view.animation.AccelerateDecelerateInterpolator;
+import android.view.animation.DecelerateInterpolator;
 import android.widget.RelativeLayout;
 
 import java.util.ArrayList;
@@ -91,7 +92,7 @@ public class RippleBackground extends RelativeLayout{
         rippleParams.addRule(CENTER_IN_PARENT, TRUE);
 
         animatorSet = new AnimatorSet();
-        animatorSet.setInterpolator(new AccelerateDecelerateInterpolator());
+        animatorSet.setInterpolator(new DecelerateInterpolator());
         animatorList = new ArrayList<>();
 
         for(int i=0; i<rippleAmount; i++) {

@@ -6,9 +6,9 @@
     android:id="@+id/content"
     app:rb_color="#0099CC"
     app:rb_radius="30dp"
-    app:rb_rippleAmount="4"
-    app:rb_duration="3000"
-    app:rb_scale="5"
+    app:rb_rippleAmount="3"
+    app:rb_duration="4500"
+    app:rb_scale="6"
     app:rb_strokeWidth="2dp"
     app:rb_type="strokeRipple">
     <ImageView
