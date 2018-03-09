@@ -10,7 +10,6 @@ import android.graphics.Canvas;
 import android.graphics.Paint;
 import android.util.AttributeSet;
 import android.view.View;
-import android.view.animation.AccelerateDecelerateInterpolator;
 import android.view.animation.DecelerateInterpolator;
 import android.widget.RelativeLayout;
 
@@ -99,8 +98,7 @@ public class RippleBackground extends RelativeLayout{
             final RippleView rippleView = new RippleView(getContext());
             addView(rippleView,rippleParams);
             rippleViewList.add(rippleView);
-            final ObjectAnimator radiusAnimator = new ObjectAnimator();
-            radiusAnimator.setFloatValues(rippleRadius, rippleScale*rippleRadius);
+            final ValueAnimator radiusAnimator = ObjectAnimator.ofFloat(rippleRadius, rippleScale*rippleRadius);
             radiusAnimator.addUpdateListener(new ValueAnimator.AnimatorUpdateListener() {
                 @Override
                 public void onAnimationUpdate(ValueAnimator valueAnimator) {
