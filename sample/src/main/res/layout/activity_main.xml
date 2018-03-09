@@ -1,14 +1,16 @@
 <com.skyfishjy.library.RippleBackground
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
     android:id="@+id/content"
     app:rb_color="#0099CC"
-    app:rb_radius="32dp"
-    app:rb_rippleAmount="6"
+    app:rb_radius="30dp"
+    app:rb_rippleAmount="4"
     app:rb_duration="3000"
-    app:rb_scale="6">
+    app:rb_scale="5"
+    app:rb_strokeWidth="2dp"
+    app:rb_type="strokeRipple">
     <ImageView
         android:layout_width="64dp"
         android:layout_height="64dp"
