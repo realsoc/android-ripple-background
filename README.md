@@ -9,14 +9,25 @@ A beautiful ripple animation for your app. You can easily change its color, spee
 ### Step 1
 
 #### Install with Gradle
+Add it in your root build.gradle at the end of repositories:
 
-```groovy
-dependencies {
-        compile 'com.realsoc.ripplebackground:library:1.0.1'
-}
 ```
-###Step 2
-####RippleBackground
+	allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+```
+Add the dependency
+```
+dependencies {
+	        compile 'com.github.realsoc:android-ripple-background:0.4'
+	}
+```
+
+### Step 2
+#### RippleBackground
 
 Add `RippleBackground` to your layout with content you want, like an ImageView. Configure the view customization elements using styleable attributes.
  
