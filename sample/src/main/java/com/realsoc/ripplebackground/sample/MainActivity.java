@@ -1,4 +1,4 @@
-package com.skyfishjy.ripplebackground.sample;
+package com.realsoc.ripplebackground.sample;
 
 import java.util.ArrayList;
 import android.animation.Animator;
@@ -11,7 +11,7 @@ import android.view.View;
 import android.view.animation.AccelerateDecelerateInterpolator;
 import android.widget.ImageView;
 
-import com.skyfishjy.library.RippleBackground;
+import com.realsoc.library.RippleBackground;
 import com.skyfishjy.library.ripplebackground.sample.R;
 
 

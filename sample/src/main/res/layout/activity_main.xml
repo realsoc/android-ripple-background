@@ -1,4 +1,4 @@
-<com.skyfishjy.library.RippleBackground
+<com.realsoc.library.RippleBackground
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="fill_parent"
@@ -27,4 +27,4 @@
         android:layout_marginRight="6dp"
         android:src="@drawable/phone2"
         android:visibility="invisible"/>
-</com.skyfishjy.library.RippleBackground>
+</com.realsoc.library.RippleBackground>

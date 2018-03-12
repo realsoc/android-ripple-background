@@ -1,4 +1,4 @@
-package com.skyfishjy.library;
+package com.realsoc.library;
 
 import android.animation.Animator;
 import android.animation.AnimatorSet;
@@ -13,11 +13,9 @@ import android.view.View;
 import android.view.animation.DecelerateInterpolator;
 import android.widget.RelativeLayout;
 
-import java.util.ArrayList;
+import com.skyfishjy.library.R;
 
-/**
- * Created by fyu on 11/3/14.
- */
+import java.util.ArrayList;
 
 public class RippleBackground extends RelativeLayout{
 
