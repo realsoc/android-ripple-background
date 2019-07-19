@@ -5,6 +5,7 @@ import android.animation.Animator;
 import android.animation.AnimatorSet;
 import android.animation.ObjectAnimator;
 import android.app.Activity;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.os.Handler;
 import android.view.View;
@@ -38,6 +39,7 @@ public class MainActivity extends Activity {
                     @Override
                     public void run() {
                         foundDevice();
+                        rippleBackground.setColor(Color.YELLOW);
                     }
                 },3000);
             }

@@ -168,6 +168,10 @@ public class RippleBackground extends RelativeLayout{
         }
     }
 
+    public void setColor(int color) {
+        paint.setColor(color);
+    }
+
     public boolean isRippleAnimationRunning(){
         return animationRunning;
     }
