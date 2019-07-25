@@ -13,8 +13,6 @@ import android.view.View;
 import android.view.animation.DecelerateInterpolator;
 import android.widget.RelativeLayout;
 
-import com.skyfishjy.library.R;
-
 import java.util.ArrayList;
 
 public class RippleBackground extends RelativeLayout{
