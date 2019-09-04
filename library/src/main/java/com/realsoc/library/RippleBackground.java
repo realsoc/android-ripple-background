@@ -90,10 +90,10 @@ public class RippleBackground extends RelativeLayout{
         final int width = getDefaultSize(getSuggestedMinimumWidth(), widthMeasureSpec);
         final int minDimension = Math.min(width, height);
 
-        if (animatorSet == null) {
-            rippleRadius = minDimension / 6f;
-            rippleScale = minDimension / (2 * rippleRadius);
 
+        if (animatorSet == null) {
+            rippleRadius = minDimension / 7f;
+            rippleScale = minDimension / (3 * rippleRadius);
             rippleParams = new LayoutParams((int) (2 * (rippleRadius * rippleScale)), (int) (2 * (rippleRadius * rippleScale)));
             rippleParams.addRule(CENTER_IN_PARENT, TRUE);
 
@@ -164,6 +164,10 @@ public class RippleBackground extends RelativeLayout{
             animatorSet.end();
             animationRunning = false;
         }
+    }
+
+    public void setColor(int color) {
+        paint.setColor(color);
     }
 
     public boolean isRippleAnimationRunning(){
