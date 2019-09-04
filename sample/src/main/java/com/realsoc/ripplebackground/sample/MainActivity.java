@@ -39,7 +39,7 @@ public class MainActivity extends Activity {
                     @Override
                     public void run() {
                         foundDevice();
-                        rippleBackground.setColor(Color.YELLOW);
+                        //rippleBackground.setColor(Color.YELLOW);
                     }
                 },3000);
             }
